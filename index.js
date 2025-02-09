@@ -41,5 +41,5 @@ app.listen(port,()=>{
 
 
 app.use("/",(req,res)=>{
-    res.send("<h1> welcome to swiggy")
+    res.send("<h1> Welcome to HungerHub Friends")
 })
