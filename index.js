@@ -17,7 +17,7 @@ const path=require("path")
 
 var app=express()
 
-const port=4000;
+const port= process.env.port || 4000;
 
 dotEnv.config()
 mongoose.connect(process.env.MONGO_URI)
@@ -40,6 +40,6 @@ app.listen(port,()=>{
 })
 
 
-app.use("/home",(req,res)=>{
+app.use("/",(req,res)=>{
     res.send("<h1> welcome to swiggy")
 })
