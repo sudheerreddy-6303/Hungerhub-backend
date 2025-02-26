@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arsenal SC", serif;
+    /* background-image: url("./vendedashboard/logo/hungerhub plain.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+
+.navsection{
+    background-color:#FE5F00;
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 0 20px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.sidebarsection{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 15%;
+    height: 100vh;
+    padding-top: 10px;
+    background-color:#989790;
+    color: black;
+    
+}
+.sidebarsection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size:medium;
+    cursor: pointer;
+    font-family: "Arsenal SC", serif;
+}
+.collectionsection{
+    display: flex;
+}
+.loginSection{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+button:hover{
+    box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 18px -2px rgba(0,0,0,0.75);
+}
+.registersection{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.authForm label{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 55%;
+    font-weight: 500;
+    margin-right: 100px;
+   
+}
+.authForm{
+    width: 100%;
+    height: 55%;
+    /* height: 50%; */
+    max-width: 30%;
+    /* height: 50vh; */
+    /* border: 1px solid red; */
+    margin-top: -80px;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:  2px solid rgb(21, 18, 18);
+    border-radius: 10px;
+    /* background-color: bisque; */
+    /* background-color: #bab9b3; */
+    background-image: url("./vendedashboard/logo/hungerhub plain.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.authForm:hover {
+    /* box-shadow: 2px 2px 5px orangered, 0px 0px 5px rgb(236, 148, 116); */
+    box-shadow: 0px 3px 18px 9px rgba(246,119,32,0.75);
+-webkit-box-shadow: 0px 3px 18px 9px rgba(246,119,32,0.75);
+-moz-box-shadow: 0px 3px 18px 9px rgba(246,119,32,0.75);
+}
+.authForm input{
+    width: 100%;
+    max-width: 70%;
+    height: 2.5rem;
+    border-radius: 5px;
+    /* margin-right: -100px;
+    margin-left: -100px; */
+    
+    
+}
+.authForm button{
+    margin-bottom: 5px;
+}
+.authForm h3{
+    margin-top: 20px;
+    color: white;
+    /* background-color: #FE5F00; */
+    border-radius: 5px;
+    font-size: xx-large;
+    text-shadow: 5px 2px 2px orangered;
+}
+.componany h2{
+    text-shadow: 5px 2px 2px rgb(61, 59, 59);
+    font-family: 'Times New Roman', Times, serif;
+}
+/* firm section Add Firm */
+.firmsection{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tableform{
+    width: 100%;
+    max-width: 50%;
+    /* height: 50vh; */
+    /* border: 1px solid red; */
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:  2px solid gray;
+    border-radius: 10px;
+    /* margin-top: 5px; */
+    /* background-color: bisque; */
+    /* border: 1px solid red; */
+    /* gap: 8px; */
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+.tableform input{
+    width: 100%;
+    max-width: 55%;
+    height: 40px;
+    border-radius: 5px;
+    max-width: 85%;
+    margin-bottom: 10px;
+   
+}
+.tableform button{
+    margin-top: -10px;
+}
+.tableform label{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 85%;
+    /* font-weight: 500; */
+    font-weight: 600;
+}
+/* check box inputs */
+.Checkinp{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 85%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.Checkinp label{
+    /* border: 1px solid blue; */
+    width: 20%;
+}
+
+
+
+
+.inputscontainer{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* max-width: 90%; */
+    display: flex;
+}
+.checkboxcontainer{
+    /* border: 1px solid green; */
+    /* border: 1px solid blue; */
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkboxcontainer label
+{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+.checkboxcontainer input
+{
+    margin-left: -200px;
+}
+
+.Checkreginp {
+    width: 100%;
+    max-width: 85%;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.Checkreginp > label {
+    width: 20%;
+}
+
+.inputsregcontainer {
+    width: 100%;
+    display: flex;
+}
+
+.checkboxregcontainer {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkboxregcontainer label {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.checkboxregcontainer input {
+    margin-left: -100px;
+}
+
+/* this for addproduct */
+/* Main Container */
+.firmsection {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Styling */
+.tableform {
+    width: 100%;
+    max-width: 50%;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Input Fields */
+.tableform input {
+    width: 100%;
+    max-width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+.tableform label {
+    width: 100%;
+    max-width: 85%;
+    font-weight: 600;
+}
+
+/* Category Checkbox Section */
+.Checkinp {
+    width: 100%;
+    max-width: 85%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.Checkinp label {
+    width: 20%;
+}
+
+/* Category Inputs */
+.inputscontainer {
+    width: 100%;
+    display: flex;
+}
+
+.checkboxcontainer {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkboxcontainer label {
+    width: 100%;
+    
+}
+
+.checkboxcontainer input {
+    margin-top: 30px;
+    margin-left: -90px;
+}
+
+/* Bestseller Radio Buttons */
+.BestsellerInp {
+    width: 100%;
+    max-width: 85%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.BestsellerInp > label {
+    width: 20%;
+    margin-right: 90px;
+    
+}
+
+.radio-container {
+    width: 100%;
+    margin-top: 10px;
+   
+    display: flex;
+}
+
+.radio-container label {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-container input {
+    margin-left: -100px;
+}
+
+/* Submit Button */
+.btnSubmit {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btnSubmit button {
+    background: orangered;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btnSubmit button:hover {
+    background: orangered;
+}
+
+/* products table */
+
+.product-table{
+    /* border: 2px solid red; */
+    width: 90vw;
+    
+    
+    border-collapse: collapse;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+
+}
+.product-table th,.product-table td{
+    border: 1px solid gray;
+    padding: 8px;
+
+}
+.product-table img{
+    height: 100px;
+    /* width: 100px; */
+    
+}
+.product-table th{
+    text-align: left;
+    background-color: gray;
+}
+.product-table td{
+    font-weight: 700;
+    font-size: larger;
+}
+.product-table button{
+    font-size: 20px;
+    
+}
+.product-table button:hover{
+background-color: orangered;
+color: white;
+
+}
+.product-table img:hover{
+transform: scale(1.2);
+}
+
+/* not found section */
+
+.errorsection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.errorsection h1{
+    font-size:4rem;
+    color: red;
+}
+.errorsection button{
+    font-size: larger;
+    color: red;
+}
+
+  
